@@ -1,21 +1,19 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Router } from 'react-router-dom'
-import Page from './Page'
 import { Routes, Route, Link } from "react-router-dom";
+import Paths from './Paths';
 const Midnav = () => {
   return (
 
     <div className='Container'>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
- 
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item">
-      <Link className='nav-link' to="/Page">ALL</Link>
+       <Link className='nav-link' to="/Page">ALL</Link>
       </li>
       <li class="nav-item">
-      <Link className='nav-link' to="/Page">LIVE</Link>
+      <Link className='nav-link' to="/Paths">LIVE</Link>
       </li>
       <li class="nav-item">
       <Link className='nav-link' to="/Page">DRAFT</Link>

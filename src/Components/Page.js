@@ -1,7 +1,9 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Paths from './Paths';
 
-const Page = () => {
+
+const Page = (props) => {
     return (
         <div className='container ml-5 bg-light'>
             <div className='row mb-5'>
